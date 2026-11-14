@@ -2,8 +2,8 @@
   "name": "UNITED STUDENT",
   "short_name": "UNITED",
   "description": "UNITED STUDENT Android App",
-  "start_url": "/UNITED-STUDENT-/",
-  "scope": "/UNITED-STUDENT-/",
+  "start_url": "/united-student/",
+  "scope": "/united-student/",
   "display": "standalone",
   "background_color": "#101010",
   "theme_color": "#b51220"
