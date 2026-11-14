@@ -27,7 +27,8 @@ button {
   border-radius: 10px;
 }
 </style>
-</head>
+</head><link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#b51220">
 <body>
 <header>
 <h1>UNITED STUDENT</h1>
@@ -40,5 +41,9 @@ button {
 MULAI
 </button>
 </main>
-</body>
+</body><script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
 </html>
