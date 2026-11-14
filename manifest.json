@@ -1,12 +1,10 @@
 {
-  "background_color": "#101010",
-  "description": "UNITED-STUDENT Flutter APK.",
-  "dir": "ltr",
+  "name": "UNITED STUDENT",
+  "short_name": "UNITED",
+  "description": "UNITED STUDENT Android App",
+  "start_url": "/UNITED-STUDENT-/",
+  "scope": "/UNITED-STUDENT-/",
   "display": "standalone",
-  "name": "UNITED-STUDENT-",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "UNITED-STUDENT-",
-  "start_url": "/",
+  "background_color": "#101010",
   "theme_color": "#b51220"
 }
