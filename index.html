@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UNITED STUDENT</title>
+<link rel="manifest" href="/UNITED-STUDENT-/manifest.json">
+<meta name="theme-color" content="#b51220">
 <style>
 body {
   margin: 0;
@@ -27,7 +29,7 @@ button {
   border-radius: 10px;
 }
 </style>
-</head><link rel="manifest" href="/UNITED-STUDENT-/manifest.json">
+</head>
 <body>
 <header>
 <h1>UNITED STUDENT</h1>
@@ -40,9 +42,10 @@ button {
 MULAI
 </button>
 </main>
-</body><script>
+<script>
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js");
+  navigator.serviceWorker.register("/UNITED-STUDENT-/sw.js");
 }
 </script>
+</body>
 </html>
